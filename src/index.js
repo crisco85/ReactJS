@@ -1,12 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+
+const Titulo = () => {
+  return (
+    <h1>Rincones de Nuestro Planeta</h1>
+  );
+}
+
+const App = () => {
+  return (
+    <h2>Destinos</h2>
+  );
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div>
+      <Titulo />
+      <App />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
